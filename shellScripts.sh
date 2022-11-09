@@ -18,4 +18,9 @@ aplay -l
 
 # ffmpeg - convert mp3 to wav
 ffmpeg -i dontStop.mp3 -acodec pcm_f32le -ar 44100 dontStop.wav
+# convert wav to mp3
+ffmpeg -i reverseTest.wav -vn -ar 44100 -ac 2 -b:a 192k reverseTest.mp3
 
+# git things
+# Unstage all files from commit
+git reset --soft HEAD~1
