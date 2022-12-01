@@ -1,0 +1,10 @@
+#-------------------------------------------------------------------
+#			Git Reference
+#-------------------------------------------------------------------
+
+# Initial steps for new repository
+git init
+git remote add origin git@github.com:dpc2/newRepo
+git push -u origin master
+
+# Note: -u creates persistent upstream tracking branch
