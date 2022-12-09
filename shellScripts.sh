@@ -1,3 +1,6 @@
+# Play bell sound
+printf '\a'
+
 # Create desktop icon?
 sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
 
