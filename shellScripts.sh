@@ -37,3 +37,7 @@ ffmpeg -i reverseTest.wav -vn -ar 44100 -ac 2 -b:a 192k reverseTest.mp3
 # git things
 # Unstage all files from commit
 git reset --soft HEAD~1
+
+
+# Using find
+sudo find / -name helloWorld.txt
