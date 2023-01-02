@@ -41,3 +41,7 @@ git reset --soft HEAD~1
 
 # Using find
 sudo find / -name helloWorld.txt
+
+# Package management things
+# Add 32 bit packages
+sudo dpkg --add-architecture i386
