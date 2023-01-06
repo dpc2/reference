@@ -10,6 +10,9 @@
 # Creat new venv
 python3 -m venv ~/code/python/venv/myNewVenv
 pip install flask
+pip install pytest
+cd venv/
+source ./bin/activate
 
 
 #---------------------------#
