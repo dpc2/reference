@@ -14,6 +14,8 @@ pip install pytest
 cd venv/
 source ./bin/activate
 
+# View packages installed
+pip3 freeze
 
 #---------------------------#
 #	Containers
