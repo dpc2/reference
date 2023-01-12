@@ -4,6 +4,14 @@
 
 
 #--------------------------#
+#     	  Random           #
+#--------------------------#
+# Returns float of seconds since the 'epoch'
+import time
+print(time.time())
+
+
+#--------------------------#
 #	Virtual Env
 #--------------------------#
 
