@@ -8,7 +8,10 @@ sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
 
 # Read mail spool file
 sudo less /var/mail/$(whoami)
-
+# Better
+mail
+d 1-32
+quit
 
 # Determine IP address
 ip a
