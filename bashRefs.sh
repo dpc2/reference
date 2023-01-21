@@ -1,3 +1,10 @@
+# Pause/Resume running programs
+Ctrl + S
+Ctrl + Q
+
+# Access ancient Unix terminal settings
+stty -a
+
 # Play bell sound
 printf '\a'
 
