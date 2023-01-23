@@ -1,3 +1,13 @@
+#---------------------------------------#
+#	    Old Unix Commands
+#---------------------------------------#
+
+# Access function manual pages
+man who
+
+# Close terminal
+Ctrl + D
+
 # Pause/Resume running programs
 Ctrl + S
 Ctrl + Q
@@ -8,17 +18,36 @@ stty -a
 # Play bell sound
 printf '\a'
 
-
-# Create desktop icon?
-sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
-
-
 # Read mail spool file
 sudo less /var/mail/$(whoami)
 # Better
 mail
 d 1-32
 quit
+# Send mail to self
+mail danny
+"Hullo!"
+Ctrl+D
+
+# Write
+write danny
+
+
+
+#---------------------------------------#
+#	    Modern Unix Commands
+#---------------------------------------#
+
+
+
+# History usage
+history
+!1994
+
+
+# Create desktop icon?
+sudo gnome-desktop-item-edit /usr/share/applications/ --create-new
+
 
 # Determine IP address
 ip a
@@ -36,6 +65,8 @@ sudo ufw allow from 10.0.0.129
 
 # List all soundcards and digital audio devices
 aplay -l
+# Restart pulseaudio
+systemctl --user restart pulseaudio.service
 
 
 # ffmpeg - convert mp3 to wav
@@ -43,10 +74,6 @@ ffmpeg -i dontStop.mp3 -acodec pcm_f32le -ar 44100 dontStop.wav
 # convert wav to mp3
 ffmpeg -i reverseTest.wav -vn -ar 44100 -ac 2 -b:a 192k reverseTest.mp3
 
-
-# git things
-# Unstage all files from commit
-git reset --soft HEAD~1
 
 
 # Using find
@@ -58,5 +85,4 @@ sudo find / -name helloWorld.txt
 sudo dpkg --add-architecture i386
 
 
-# Restart pulseaudio
-systemctl --user restart pulseaudio.service
+
