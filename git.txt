@@ -17,3 +17,10 @@ git reset --soft HEAD~1
 # Stop tracking file
 git rm --cached file
 git rm -r --cached folder/
+
+# Ignore
+# all files with .log extension
+*.log
+
+# all files in any directory named temp
+temp/
