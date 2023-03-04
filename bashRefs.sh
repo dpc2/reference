@@ -32,6 +32,8 @@ Ctrl+D
 # Write
 write danny
 
+# Change terminal
+chvt 4
 
 
 #---------------------------------------#
