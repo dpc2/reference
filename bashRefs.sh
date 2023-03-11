@@ -2,6 +2,9 @@
 #	    Old Unix Commands
 #---------------------------------------#
 
+# Timing a command
+time tree /
+
 # Access function manual pages
 man who
 
