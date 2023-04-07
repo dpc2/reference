@@ -43,6 +43,9 @@ chvt 4
 #	    Modern Unix Commands
 #---------------------------------------#
 
+# grep for options within --help, example uses tar
+# search --help for definitions of x,z,v,f options
+tar --help | grep '\-x,\|\-z,\|\-v,\|\-f,'
 
 
 # History usage
@@ -88,6 +91,3 @@ sudo find / -name helloWorld.txt
 # Package management things
 # Add 32 bit packages
 sudo dpkg --add-architecture i386
-
-
-
