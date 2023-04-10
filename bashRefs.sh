@@ -43,6 +43,10 @@ chvt 4
 #	    Modern Unix Commands
 #---------------------------------------#
 
+# Get Linux kernel version
+uname -srm
+hostnamectl
+
 # grep for options within --help, example uses tar
 # search --help for definitions of x,z,v,f options
 tar --help | grep '\-x,\|\-z,\|\-v,\|\-f,'
