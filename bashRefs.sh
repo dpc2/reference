@@ -95,3 +95,8 @@ sudo find / -name helloWorld.txt
 # Package management things
 # Add 32 bit packages
 sudo dpkg --add-architecture i386
+
+
+# Pip
+pip install XXX
+pip list
