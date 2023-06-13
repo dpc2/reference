@@ -1,6 +1,28 @@
 #---------------------------------------#
-#	    Old Unix Commands
+#	      Bash Reference
 #---------------------------------------#
+
+# locate - search entire file system
+locate chage
+sudo updatedb # update the locate db
+
+# type - location of command
+type which
+type -a ls
+
+# User info
+id
+who -uH # u: idle time and process ID
+	# H: add header
+
+# date
+date
+date +'%d/%d/%y'
+date +'%A, %B %d, %Y'
+
+# Create (c) a file (f) named backup.tar,
+# and be verbose about it
+tar -cvf backup.tar /home/danny
 
 # Timing a command
 time tree /
@@ -37,11 +59,6 @@ write danny
 
 # Change terminal
 chvt 4
-
-
-#---------------------------------------#
-#	    Modern Unix Commands
-#---------------------------------------#
 
 # Get Linux kernel version
 uname -srm

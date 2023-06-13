@@ -10,6 +10,16 @@ git push -u origin master
 # -u creates persistent upstream tracking branch
 
 
+# Add SSH key
+ssh-keygen -o -t rsa -C "ssh@github.com"
+nano ~/.ssh/id_rsa.pub
+# Copy id_rsa.pub to SSH keys in Github
+
+
+# Clone repository
+git clone git@github.com:dpc2/example.git
+
+
 # Unstage all files from commit
 git reset --soft HEAD~1
 
@@ -24,3 +34,4 @@ git rm -r --cached folder/
 
 # all files in any directory named temp
 temp/
+
