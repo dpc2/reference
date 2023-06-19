@@ -2,6 +2,18 @@
 #	      Bash Reference
 #---------------------------------------#
 
+
+# History usage
+history
+!1994
+# Previous command
+!!
+# Run command containing string
+!?dat?
+fc 250
+fc 100 105
+nano ~/.bash_history
+
 # locate - search entire file system
 locate chage
 sudo updatedb # update the locate db
@@ -67,11 +79,6 @@ hostnamectl
 # grep for options within --help, example uses tar
 # search --help for definitions of x,z,v,f options
 tar --help | grep '\-x,\|\-z,\|\-v,\|\-f,'
-
-
-# History usage
-history
-!1994
 
 
 # Create desktop icon?
