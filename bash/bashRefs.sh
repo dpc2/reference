@@ -2,6 +2,13 @@
 #	      Bash Reference
 #---------------------------------------#
 
+# Mounting external storage
+sudo blkid
+sudo fdisk -l
+sudo mount /dev/sda1 /mnt
+# Change permissions for NTFS formatting
+sudo chmod 775 /mnt
+
 
 # History usage
 history
