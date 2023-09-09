@@ -2,6 +2,11 @@
 #	      Bash Reference
 #---------------------------------------#
 
+# Starting tlp
+systemctl enable tlp.service
+sudo tlp start
+tlp-stat -s
+
 # Mounting external storage
 sudo blkid
 sudo fdisk -l
