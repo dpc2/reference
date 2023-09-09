@@ -1,2 +1,0 @@
-# Access CUPS
-http://localhost:631/

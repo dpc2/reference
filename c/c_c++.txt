@@ -1,7 +1,10 @@
 #------------------------------------------------------------------#
-#			C programming
+#			  C/C++ programming
 #------------------------------------------------------------------#
 
 # Compile source code
-
 gcc main.c -o my_program
+
+# Compile C++ with debugging
+g++ -g myFile.cpp -o a.out
+
