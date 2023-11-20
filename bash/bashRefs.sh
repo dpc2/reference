@@ -2,6 +2,14 @@
 #	      Bash Reference
 #---------------------------------------#
 
+# Change date/time
+timedatectl
+timedatectl list-timezones
+sudo timedatectl set-timezone America/Chicago
+
+# Print exit code of last command
+echo $?
+
 # Starting tlp
 systemctl enable tlp.service
 sudo tlp start
