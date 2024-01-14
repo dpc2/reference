@@ -17,10 +17,10 @@ print(time.time())
 
 # Creat new venv
 python3 -m venv ~/code/python/venv/myNewVenv
-pip install flask
-pip install pytest
 cd venv/
 source ./bin/activate
+pip install flask
+pip install pytest
 
 # View packages installed
 pip3 freeze
