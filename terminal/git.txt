@@ -28,10 +28,32 @@ git reset --soft HEAD~1
 git rm --cached file
 git rm -r --cached folder/
 
+
 # Ignore
 # all files with .log extension
 *.log
 
+
 # all files in any directory named temp
 temp/
 
+#------------------------------------------
+#	 Rename master branch to main
+#-----------------------------------------
+git branch -m master main
+
+# Need to create a new branch on remote named "main" and
+# delete old master branch:
+
+# Check that current local HEAD branch is still main:
+git status
+# Then...
+git push -u origin main
+
+# Now there are main and master branches, need to delete master branch:
+# Note: need to change the default branch on Github first
+git push origin --delete master
+
+
+# List all branches
+git branch -a
