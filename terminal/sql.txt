@@ -1,0 +1,10 @@
+/* SQL Commands */
+
+# Create new table
+
+CREATE TABLE garden (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name TEXT NOT NULL,
+	lastWatered DATE NOT NULL,
+	dryOut INTEGER NOT NULL,
+	remaining TINYINT);
