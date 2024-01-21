@@ -55,5 +55,18 @@ git push -u origin main
 git push origin --delete master
 
 
+
+#------------------------------------------
+#		Branch Things
+#------------------------------------------
+
 # List all branches
 git branch -a
+
+# Create new branch and check it out
+git check -b myBranch
+
+# This ^^^ is shorthand for:
+git branch myBranch
+git checkout myBranch
+

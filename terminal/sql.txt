@@ -8,3 +8,8 @@ CREATE TABLE garden (
 	lastWatered DATE NOT NULL,
 	dryOut INTEGER NOT NULL,
 	remaining TINYINT);
+
+# Add new column
+ALTER TABLE myTable
+ADD COLUMN newColumn Info;
+
