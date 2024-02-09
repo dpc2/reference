@@ -1,5 +1,9 @@
 /* SQL Commands */
 
+
+# Open MySQL
+mysql -u debian-sys-maint -p
+
 # Create new table
 
 CREATE TABLE garden (
