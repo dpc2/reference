@@ -2,6 +2,10 @@
 #	      Bash Reference
 #---------------------------------------#
 
+# Check for which ports are listening
+sudo netstat -ltnp | grep 'LISTEN'
+
+
 # Change date/time
 timedatectl
 timedatectl list-timezones
