@@ -2,6 +2,10 @@
 #	      Bash Reference
 #---------------------------------------#
 
+# List directory contents in a tree
+tree
+
+
 # Check for which ports are listening
 sudo netstat -ltnp | grep 'LISTEN'
 
