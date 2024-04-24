@@ -4,6 +4,8 @@
 
 # List directory contents in a tree
 tree
+# Ignore some files
+tree -a -I ignoreMe
 
 
 # Check for which ports are listening
